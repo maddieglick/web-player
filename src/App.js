@@ -1,24 +1,16 @@
-import logo from "./logo.svg";
 import "./App.css";
+import LofiPlaylist from "./lofiPlaylist.js";
+//import PartyPlaylist from "./partyPlaylist.";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>Are you ready to chill? or are you ready to PARTY?</h1>
+      <div>
+        <LofiPlaylist />
+        {/* <PartyPlaylist /> */}
+      </div>
+    </>
   );
 }
 
