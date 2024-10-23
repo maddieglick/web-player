@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <h1>Are you ready to chill? or are you ready to PARTY?</h1>
-      <div>
+      <div className="container">
         <LofiPlaylist />
         {/* <PartyPlaylist /> */}
       </div>
