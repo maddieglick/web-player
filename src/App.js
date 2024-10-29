@@ -1,6 +1,13 @@
 import "./App.css";
 import LofiPlaylist from "./lofiPlaylist.js";
 //import PartyPlaylist from "./partyPlaylist.";
+var toggleButton;
+document.addEventListener("DOMContentLoaded", () => {
+  toggleButton = document.getElementById("toggleButton");
+});
+toggleButton.addEventListener("click", () => {
+  this.classList.toggle("active");
+});
 
 function App() {
   return (
